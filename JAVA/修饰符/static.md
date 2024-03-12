@@ -14,6 +14,16 @@ static修饰符具有如下特性：
 
 ```
 public class StaticTest {
+    public int num1;
+    static public int num2;
+
+    static public void setNum(int n1, int n2) {
+        // 静态方法不能调用非静态的变量和非静态的方法，否则编译时就会报错。也意味着静态方法中不能用this, super关键字
+        // this.num1 = n1;
+        // this.num2 = n2;
+        num2 = n2;
+    }
+
     class Test1 {
         int t1;
 
@@ -34,8 +44,7 @@ public class StaticTest {
         // Test1 test1 = new Test1(1); 编译错误：'StaticTest.this' cannot be referenced from a static context
         StaticTest staticTest = new StaticTest();
         Test1 test1 = staticTest.new Test1(1);
-        
+
         Test2 test2 = new Test2(2);
     }
-}
 ```
