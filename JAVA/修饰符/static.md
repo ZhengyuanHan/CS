@@ -31,7 +31,7 @@ public class StaticTest {
     }
 
     public static void main(String[] args) {
-        // Test1 test1 = new Test1(1); 编译错误：'StaticTest.this' cannot be referenced from a static context
+        <font color=red>// Test1 test1 = new Test1(1); 编译错误：'StaticTest.this' cannot be referenced from a static context</font>
         StaticTest staticTest = new StaticTest();
         Test1 test1 = staticTest.new Test1(1);
         
