@@ -2,12 +2,12 @@
 ```
 private static void changeNum(int num) {
         num++;
-    }
+}
 
-    public static void main(String[] args) {
+public static void main(String[] args) {
         int num = 0;
         changeNum(num);
         System.out.println(num);
-    }
+}
 ```
 运行结果：0
