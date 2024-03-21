@@ -17,3 +17,19 @@ public class MyReceiver extends BroadcastReceiver {
 ```
 ### 注册Broadcast Receivers
 应用程序通过在AndroidManifest.xml中注册广播接收器来监听制定的广播意图。假设我们将要注册MyReceiver来监听系统产生的ACTION_BOOT_COMPLETED事件。该事件由Android系统的启动进程完成时发出。
+![broadcast](https://github.com/ZhengyuanHan/CS/blob/main/img/broadcast.png)
+```
+<application
+   android:icon="@drawable/ic_launcher"
+   android:label="@string/app_name"
+   android:theme="@style/AppTheme" >
+   <receiver android:name="MyReceiver">
+
+      <intent-filter>
+         <action android:name="android.intent.action.BOOT_COMPLETED">
+         </action>
+      </intent-filter>
+
+   </receiver>
+</application>
+```
