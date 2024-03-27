@@ -18,10 +18,10 @@
 会议层（Session Layer）负责在数据传输中设置和维护计算机网络中两台计算机之间的通信连接。该层常见的协议包括：SQL、NFS、NETBIOS、RPC 
 
 ## 第4层 传输层
-传输层（Transport Layer）把传输表头（TH）加至资料以形成分组。传输表头包含了所使用的协议等发送信息。例如:传输控制协议（TCP）等。该层常见的协议包括：TCP、UDP、SPX
+传输层（Transport Layer）把传输表头（TH）加至资料以形成分组。（分段）传输表头包含了所使用的协议等发送信息。例如:传输控制协议（TCP）等。该层常见的协议包括：TCP、UDP、SPX
 
 ## 第3层 网络层
-网络层（Network Layer）决定数据的路径选择和转寄，将网络表头（NH）加至数据包，以形成分组。网络表头包含了网络资料。例如:互联网协议（IP）等。该层常见的协议包括：IP、IPX、OSFP、RIP、IGRP、ICMP、ARP、RARP 
+网络层（Network Layer）决定数据的路径选择和转寄，将网络表头（NH）加至数据包，以形成分组。（分片）网络表头包含了网络资料。例如:互联网协议（IP）等。该层常见的协议包括：IP、IPX、OSFP、RIP、IGRP、ICMP、ARP、RARP 
 
 ## 第2层 数据链路层
 数据链路层（Data Link Layer）负责网络寻址、错误侦测和改错。其分为两个子层：分为两个子层：逻辑链路控制（logical link control，LLC）子层和介质访问控制（Media access control，MAC）子层。该层常见的协议包括：Ethernet、VLAN、PPP、MAC、IEEE802.3、FR、HDLC
