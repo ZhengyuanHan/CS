@@ -3,9 +3,13 @@
 ## 第7层 应用层
 应用层（Application Layer）是用户真正与电脑沟通的点，这一层只有在真正需要访问网络才有作用。该层常见的协议包括：TELNET、HTTP、FTP、SSH、SMTP、WWW  
 
-TELNET：默认端口23  
-HTTP：默认端口80  
-FTP：默认端口20/21
+| 协议 | 默认端口 |
+| --- | --- |
+| TELNET | 23 |
+| HTTP | 80 |  
+| FTP | 20/21 |  
+| SSH | 22 |  
+| SMTP | 25 |  
 
 ## 第6层 表现层(表示层)
 表现层（Presentation Layer）把数据转换为能与接收者的系统格式兼容并适合传输的格式。该层常见的协议包括：JPEG、MPEG、ASLL
