@@ -86,3 +86,10 @@ URL，是uniform resource locator，统一资源定位器，它是一种具体�
 ### POST和PUT的区别
 ***语义不同***：PUT 请求通常用于更新或替换服务器上的资源，而POST 请求通常用于创建新的资源或提交数据到服务器进行处理。  
 ***客户端发送的数据不同***：PUT 请求需要客户端发送完整的资源内容，而POST 请求可以只发送部分资源内容。
+
+## HTTP2.0新特性
+- 增加二进制分帧  
+- 压缩头部（header compression）  
+- 多路复用（multiplexing）  
+- 请求优先级  
+- 服务器提示（server push） 
