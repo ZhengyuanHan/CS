@@ -42,3 +42,7 @@ URL，是uniform resource locator，统一资源定位器，它是一种具体�
 ## 请求消息Request和响应消息Response
 ### 请求消息包括以下格式
 请求行（request line）、请求头部（header）、空行和请求数据四个部分。
+![请求报文](https://github.com/ZhengyuanHan/CS/blob/main/img/%E8%AF%B7%E6%B1%82%E6%8A%A5%E6%96%87.png)
+注意：请求头部后面的空行是必须的，即使第四部分的请求数据为空，也必须有空行。
+### 响应消息包括以下格式
+状态行、消息报头、空行和响应正文。
