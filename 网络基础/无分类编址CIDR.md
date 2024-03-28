@@ -1,4 +1,4 @@
-![无分类编址CIDR](https://github.com/ZhengyuanHan/CS/blob/main/img/%E6%97%A0%E5%88%86%E7%B1%BB%E7%BC%96%E5%9D%80CIDR.png)
+![无分类编址CIDR](https://github.com/ZhengyuanHan/CS/blob/main/img/%E6%97%A0%E5%88%86%E7%B1%BB%E7%BC%96%E5%9D%80CIDR.png)  
 CIDR使用“斜线记法”，它有称为CIDR记法，即在IP地址加上一个斜线“/”，然后写上网络前缀所占的位数（这歌数值对应于三级编址中子网掩码中1的个数）。
 ### CIDR地址块
 CIDR把网络前缀都相同的连续的IP地址组成“CIDR地址块”
