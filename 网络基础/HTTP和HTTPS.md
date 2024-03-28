@@ -66,6 +66,7 @@ URL，是uniform resource locator，统一资源定位器，它是一种具体�
 403 Forbidden                 //服务器收到请求，但是拒绝提供服务
 404 Not Found                 //请求资源不存在，eg：输入了错误的URL
 500 Internal Server Error     //服务器发生不可预期的错误
+502                           //网关错误
 503 Server Unavailable        //服务器当前不能处理客户端的请求，一段时间后可能恢复正常
 ```
 
