@@ -29,3 +29,12 @@ SELECT A.学号, A.姓名, A.籍贯, A.年龄, B.专业, B.班级
 FROM student A RIGHT JOIN major B  
 ON  A.学号=B.学号
 ```
+![右连接结果](https://github.com/ZhengyuanHan/CS/blob/main/img/%E5%8F%B3%E8%BF%9E%E6%8E%A5%E7%BB%93%E6%9E%9C.png)
+
+## 【FULL JOIN】 完全连接
+返回两个表中的所有行。  
+```
+SELECT A.学号, A.姓名, A.籍贯, A.年龄, B.专业, B.班级
+FROM student A FULL JOIN major B  
+ON  A.学号=B.学号
+```
