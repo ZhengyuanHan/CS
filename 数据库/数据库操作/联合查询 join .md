@@ -33,6 +33,7 @@ ON  A.学号=B.学号
 
 ## 【FULL JOIN】 完全连接
 返回两个表中的所有行。  
+![]()
 ```
 SELECT A.学号, A.姓名, A.籍贯, A.年龄, B.专业, B.班级
 FROM student A FULL JOIN major B  
