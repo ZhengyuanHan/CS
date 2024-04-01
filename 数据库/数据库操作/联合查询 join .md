@@ -19,3 +19,12 @@ SELECT A.学号, A.姓名, A.籍贯, A.年龄, B.专业, B.班级
 FROM student A LEFT JOIN major B  
 ON  A.学号=B.学号
 ```
+![左连接结果](https://github.com/ZhengyuanHan/CS/blob/main/img/%E5%B7%A6%E8%BF%9E%E6%8E%A5%E7%BB%93%E6%9E%9C.png)
+
+## 【RIGHT JOIN】右连接
+用于获取右表中的所有记录，即使左表没有对应匹配的记录。  
+```
+SELECT A.学号, A.姓名, A.籍贯, A.年龄, B.专业, B.班级
+FROM student A RIGHT JOIN major B  
+ON  A.学号=B.学号
+```
